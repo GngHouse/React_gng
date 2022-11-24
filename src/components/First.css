@@ -1,0 +1,32 @@
+.container {
+    width: 150px;
+    height: 200px;
+    perspective: 300px;
+}
+
+.container .item {
+    width: 150px;
+    height: 200px;
+    border: 1px solid #828282;
+    font-size: 35px;
+    backface-visibility: hidden;
+    transition: 1s;
+}
+
+.container .item.front {
+    position: absolute;
+    transform: rotateY(0deg);
+}
+
+.container .item.front {
+    transform: rotateY(180deg);
+}
+
+.container .item.back {
+
+    transform: rotateY(-180deg);
+}
+
+.container:hover .item.back {
+    transform: rotateY(0deg);
+}
