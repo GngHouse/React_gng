@@ -18,15 +18,14 @@
   z-index: 2;
 }
 
-.slider .indicators{
-    bottom: 1vw;
-}
-
-.slider .indicators .indicator-item.active {
-  background-color: black;
+.slider .indicators {
   bottom: 1vw;
 }
 
+.slider .indicators .indicator-item.active {
+  background-color: red;
+  /* bottom: 1vw; */
+}
 
 .body {
   background-color: #1e1e1e;
@@ -67,8 +66,8 @@
   text-align: left;
 }
 
-.firstleft{
-    width: 50%;
+.firstleft {
+  width: 50%;
 }
 
 .공간대여 {

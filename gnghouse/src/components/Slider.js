@@ -55,7 +55,7 @@ class Slider extends Component {
                         <span className="공간연출">공간연출</span>
                       </div>
                     </div>
-                    <div className="firstright"></div>
+                    <div className="firstright"><First/></div>
                   </div>
                 </div>
               </div>
