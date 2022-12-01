@@ -60,7 +60,7 @@ class Slider extends Component {
                 </div>
               </div>
             </li>
-            {/* <li>
+            <li>
               <img src="/img/background1.png" />
               <div className="caption center-align">
                 <div className="center">
@@ -85,7 +85,7 @@ class Slider extends Component {
                         <span className="공간연출">공간 대여</span>
                       </div>
                     </div>
-                    <div className="firstright"></div>
+                    <div className="firstright"><First/></div>
                   </div>
                 </div>
               </div>
@@ -113,11 +113,11 @@ class Slider extends Component {
                         <span className="공간연출">GNG HOUSE</span>
                       </div>
                     </div>
-                    <div className="firstright"></div>
+                    <div className="firstright"><First/></div>
                   </div>
                 </div>
               </div>
-            </li> */}
+            </li>
             {/* <li>
               <img src="/img/background1.png" />
               <div className="caption center-align">

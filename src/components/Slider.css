@@ -46,6 +46,7 @@
 }
 
 .center {
+  position: relative;
   position: absolute;
   top: -10vw;
   display: flex;
@@ -60,6 +61,13 @@
   width: 100%;
 }
 
+@media (max-width: 1000px) {
+  .space {
+    flex-direction: column;
+    margin-left: 10vw;
+  }
+}
+
 .firstleftspace {
   display: flex;
   flex-direction: column;
@@ -68,10 +76,22 @@
 
 .firstleft {
   width: 50%;
+  display: flex;
 }
 
-.firstright{
+.firstright {
+  display: flex;
   width: 20%;
+  margin-left: -20vw;
+}
+
+@media (max-width: 1000px) {
+  .firstright {
+    position: absolute;
+    top: -7vh;
+    margin-left: 45vw;
+    width: 150%;
+  }
 }
 
 .공간대여 {

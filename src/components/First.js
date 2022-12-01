@@ -1,13 +1,11 @@
 import "./First.css";
-import styled from "styled-components";
 
 export default function First() {
   return (
-    <div>
-      <img
-        src="/img/sample.png"
-        class="hand"
-      ></img>
+    <div className="flex">
+        <img src="img/img1.png" alt="firstimg" className="hand"></img>
+        <img src="img/img2.png" alt="firstimg" className="hand"></img>
+        <img src="img/img3.png" alt="firstimg" className="hand"></img>
     </div>
   );
 }
