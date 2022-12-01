@@ -4,6 +4,7 @@ img.hand {
   animation-iteration-count: infinite;
 
   transform-origin: 25% 100%;
+
 }
 
 @keyframes target_image {

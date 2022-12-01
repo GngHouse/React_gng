@@ -60,7 +60,7 @@ class Slider extends Component {
                 </div>
               </div>
             </li>
-            <li>
+            {/* <li>
               <img src="/img/background1.png" />
               <div className="caption center-align">
                 <div className="center">
@@ -117,7 +117,7 @@ class Slider extends Component {
                   </div>
                 </div>
               </div>
-            </li>
+            </li> */}
             {/* <li>
               <img src="/img/background1.png" />
               <div className="caption center-align">
