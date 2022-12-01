@@ -1,0 +1,7 @@
+.logo {
+    position: fixed;
+    top: 1vw;
+    left: 1vw;
+    z-index: 3;
+    width: 10%;
+}
