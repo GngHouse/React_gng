@@ -3,5 +3,11 @@
     top: 1vw;
     left: 1vw;
     z-index: 3;
-    width: 10%;
+    width: 15%;
 }
+
+@media (max-width: 1000px) {
+    .logo {
+        width: 20%;
+    }
+  }

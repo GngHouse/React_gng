@@ -150,3 +150,85 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+
+.GNG바로가기 {
+  top: 27vw;
+  position: absolute;
+  width: 12vw;
+  height: 3vw;
+  background-color: #FA8209;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1000px) {
+  .GNG바로가기 {
+    top: 70vh;
+    width: 30vw;
+    height: 4vh;
+  }
+}
+
+.공간연출바로가기 {
+  top: 25vw;
+  position: absolute;
+  width: 12vw;
+  height: 3vw;
+  background-color: #ffad4e;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1000px) {
+  .공간연출바로가기 {
+    top: 70vh;
+    width: 30vw;
+    height: 4vh;
+  }
+}
+
+.공간대여바로가기 {
+  top: 25vw;
+  position: absolute;
+  width: 12vw;
+  height: 3vw;
+  background-color: #ff4e4e;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1000px) {
+  .공간대여바로가기 {
+    top: 70vh;
+    width: 30vw;
+    height: 4vh;
+  }
+}
+
+.바로가기 {
+  font-size: 1.2vw;
+  color: white;
+}
+
+@media (max-width: 1000px) {
+  .바로가기 {
+    font-size: 3vw;
+  }
+}
+
+.spacearound {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
+}
+
+.arrow {
+  width: 12% !important;
+}

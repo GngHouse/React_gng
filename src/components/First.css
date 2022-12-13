@@ -40,3 +40,29 @@ img.hand {
     transform: rotateY(0deg);
   }
 }
+
+.bottom {
+  position: absolute;
+  right: -16vw;
+  bottom: -1vw;
+  width: 30%;
+}
+
+.bottomimg {
+  background-repeat: no-repeat;
+  width: 30% !important;
+  background-size: contain !important;
+}
+
+@media (max-width: 1000px) {
+  .bottom {
+    left: 5vw;
+    width: 50%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .bottomimg {
+    width: 50%;
+  }
+}

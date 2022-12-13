@@ -1,0 +1,155 @@
+.homeimg {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.homecenter {
+  top: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+}
+
+@media (max-width: 1000px) {
+  .homecenter {
+    display: none;
+  }
+}
+
+.homespace {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .homespace {
+    flex-direction: column;
+    width: 80%;
+  }
+}
+
+.homeleft {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  height: 30vh;
+}
+
+.homeright {
+  width: 30vw;
+  height: 30vh;
+}
+
+.subtit {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3vw;
+  color: white;
+  text-align: left;
+  padding-left: 1vw;
+}
+
+.maintit {
+  display: block;
+}
+
+.maintit_GNG {
+  color: #ff7f00;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8vw;
+  text-align: left;
+  padding-right: 1.5vw;
+}
+
+.maintit_HOUSE {
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8vw;
+  text-align: left;
+}
+
+.homebottom {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: absolute;
+  bottom: -7vw;
+}
+
+.homebottom_text {
+  font-size: 15vw;
+  -webkit-text-stroke: 1px #fff;
+  color: transparent;
+  opacity: 0.6;
+}
+
+@media (max-width: 1000px) {
+  .smallhome {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+.smallbox {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .smallbox {
+    width: 70vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1000px) {
+  .smgng {
+    color: #ff7f00;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12vw;
+    text-align: left;
+    opacity: 0.8;
+  }
+}
+
+@media (max-width: 1000px) {
+  .smhouse {
+    margin-top: -8vw;
+    color: white;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12vw;
+    text-align: left;
+    opacity: 0.8;
+  }
+}
+
+@media (max-width: 1000px) {
+  .smsub {
+    color: white;
+  }
+}

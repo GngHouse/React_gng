@@ -3,6 +3,8 @@ import ReactDOM from "react-dom";
 import Slider from "./Slider";
 import Header from "./Header";
 import Firstleft from "./Firstleft";
+import { Home } from "./Home";
+import ReactPageScroller from "react-page-scroller";
 
 export const Main = () => {
   const { headingText } = styles;
@@ -10,7 +12,10 @@ export const Main = () => {
   return (
     <>
       <Header />
+      <ReactPageScroller>
+      <Home />
       <Slider />
+      </ReactPageScroller>
     </>
   );
 };
