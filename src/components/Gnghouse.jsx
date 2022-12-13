@@ -1,10 +1,9 @@
-import Header from "./Header";
+import "./Gnghouse.css";
 
 export function Gnghouse() {
   return (
-    <div>
-      <Header />
-      <h1>gnghouse</h1>
+    <div className="gngbody">
+      <img className="gngbackimg" src="http://gnghouse.co.kr/data/theme/gnuwiz/sub_banner/sub_bg_img_0.jpg"></img>
     </div>
   );
 }

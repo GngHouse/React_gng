@@ -13,7 +13,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Main />} />
           <Route exact path="/Production" element={<Production />} />
-          <Route exact path="/Space" element={<Space/>} />
+          <Route exact path="/Space" element={<Space />} />
           <Route exact path="/Gnghouse" element={<Gnghouse />} />
         </Routes>
       </BrowserRouter>

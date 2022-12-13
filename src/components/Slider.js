@@ -52,10 +52,7 @@ class Slider extends Component {
                             결혼식과 같은 행사 공간 연출 및 공공기관 발주 행사,
                             소모임 공간대여를 진행 중입니다.
                           </span>
-                          <Link
-                            to="/Gnghouse"
-                            style={{ textDecoration: "none" }}
-                          >
+                          <a href="#sectionThree">
                             <div className="GNG바로가기">
                               <div className="spacearound">
                                 <span className="바로가기">바로가기</span>
@@ -65,7 +62,7 @@ class Slider extends Component {
                                 ></img>
                               </div>
                             </div>
-                          </Link>
+                          </a>
                         </div>
                         <span className="공간연출">공간연출</span>
                       </div>

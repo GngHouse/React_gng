@@ -17,16 +17,21 @@ export function Home() {
           </div>
           <div className="homeright"></div>
         </div>
-      </div>
-      <div className="homebottom">
-        <span className="homebottom_text">GIVE & GIVE</span>
+        <div className="homebottom">
+          <span className="homebottom_text">GIVE & GIVE</span>
+        </div>
       </div>
       <div className="smallhome">
-            <div className="smallbox">
-                <span className="smgng">GNG<br/></span>
-                <span className="smhouse">HOUSE</span>
-                <span className="smsub">House Party <br/> Wedding, Space rental <br/> production</span>
-            </div>
+        <div className="smallbox">
+          <span className="smgng">
+            GNG
+            <br />
+          </span>
+          <span className="smhouse">HOUSE</span>
+          <span className="smsub">
+            House Party <br /> Wedding, Space rental <br /> production
+          </span>
+        </div>
       </div>
     </div>
   );

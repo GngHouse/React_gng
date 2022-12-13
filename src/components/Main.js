@@ -4,18 +4,35 @@ import Slider from "./Slider";
 import Header from "./Header";
 import Firstleft from "./Firstleft";
 import { Home } from "./Home";
-import ReactPageScroller from "react-page-scroller";
+import { SectionsContainer, Section } from "react-fullpage";
+import { Gnghouse } from "./Gnghouse";
+import { Production } from "./Production";
+import "./Main.css";
 
 export const Main = () => {
   const { headingText } = styles;
 
+  let options = {
+    anchors: ["sectionOne", "sectionTwo", "sectionThree", "sectionFour"],
+  };
+
   return (
     <>
       <Header />
-      <ReactPageScroller>
-      <Home />
-      <Slider />
-      </ReactPageScroller>
+      <SectionsContainer {...options}>
+        <Section>
+          <Home />
+        </Section>
+        <Section>
+          <Slider />
+        </Section>
+        <Section>
+          <Gnghouse />
+        </Section>
+        <Section>
+          <Production />
+        </Section>
+      </SectionsContainer>
     </>
   );
 };
