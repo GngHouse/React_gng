@@ -25,7 +25,7 @@ export function Home() {
             <div className="smallbox">
                 <span className="smgng">GNG<br/></span>
                 <span className="smhouse">HOUSE</span>
-                <span className="smsub">House Party <br/> Wedding, Space rental & production</span>
+                <span className="smsub">House Party <br/> Wedding, Space rental <br/> production</span>
             </div>
       </div>
     </div>

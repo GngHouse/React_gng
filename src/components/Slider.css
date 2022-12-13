@@ -74,6 +74,12 @@
   text-align: left;
 }
 
+@media (max-width: 1000px) {
+  .firstleftspace {
+    height: 70vh;
+  }
+}
+
 .firstleft {
   width: 50%;
   display: flex;
@@ -113,6 +119,12 @@
   background-clip: text;
 }
 
+@media (max-width: 1000px) {
+  .공간대여 {
+    font-size: 8vw;
+  }
+}
+
 .gnghouse {
   font-family: "Inter";
   font-style: normal;
@@ -123,6 +135,15 @@
   color: #ffffff;
 }
 
+@media (max-width: 1000px) {
+  .gnghouse {
+    position: absolute;
+    top: 38vw;
+    font-size: 7vw;
+    font-weight: 500;
+  }
+}
+
 .gnghouseintro {
   font-family: "Inter";
   font-style: normal;
@@ -131,6 +152,15 @@
   /* or 300% */
 
   color: #ffffff;
+}
+
+@media (max-width: 1000px) {
+  .gnghouseintro {
+    width: 43vw;
+    position: absolute;
+    top: 50vw;
+    font-size: 1vh;
+  }
 }
 
 .공간연출 {
@@ -151,12 +181,20 @@
   background-clip: text;
 }
 
+@media (max-width: 1000px) {
+  .공간연출 {
+    position: absolute;
+    top: 90vw;
+    font-size: 8vw;
+  }
+}
+
 .GNG바로가기 {
   top: 27vw;
   position: absolute;
   width: 12vw;
   height: 3vw;
-  background-color: #FA8209;
+  background-color: #fa8209;
   border-radius: 5px;
   display: flex;
   align-items: center;
