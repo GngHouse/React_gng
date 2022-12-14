@@ -11,6 +11,7 @@ import { Production } from "./Production";
 import { Production2 } from "./Production2";
 import { Gnghouse2 } from "./Gnghouse2";
 import "./Main.css";
+import { Weading } from "./Weading";
 
 export const Main = () => {
   const { headingText } = styles;
@@ -25,6 +26,7 @@ export const Main = () => {
       "sectionFour",
       "sectionFive",
       "sectionSix",
+      "sectinoSeven",
     ],
   };
 
@@ -49,6 +51,9 @@ export const Main = () => {
         </Section>
         <Section>
           <Production2 />
+        </Section>
+        <Section>
+          <Weading />
         </Section>
       </SectionsContainer>
     </>

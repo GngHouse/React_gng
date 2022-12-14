@@ -22,6 +22,12 @@
   bottom: 1vw;
 }
 
+@media (max-width: 1000px) {
+  .slider .indicators {
+    bottom: 15vw;
+  }
+}
+
 .slider .indicators .indicator-item.active {
   background-color: red;
   /* bottom: 1vw; */
@@ -184,7 +190,7 @@
 @media (max-width: 1000px) {
   .공간연출 {
     position: absolute;
-    top: 90vw;
+    bottom: 10vw;
     font-size: 8vw;
   }
 }

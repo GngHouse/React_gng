@@ -89,7 +89,7 @@
 
 @media (max-width: 1000px) {
   .rt {
-    padding-top: 15vw;
+    padding-top: 27vw;
     padding-left: 5vw;
   }
 }
@@ -101,6 +101,12 @@
   padding-bottom: 1vw;
 }
 
+@media (max-width: 1000px) {
+  .wel {
+    font-size: 5vw;
+  }
+}
+
 .mt {
   width: 40vw;
   font-size: 1vw;
@@ -109,8 +115,8 @@
 }
 
 @media (max-width: 1000px) {
-  .mt2 {
-    width: auto;
+  .mt {
+    font-size: 2vw;
   }
 }
 
@@ -127,7 +133,6 @@
 
 @media (max-width: 1000px) {
   .lt {
-    padding-top: 15vw;
     padding-right: 5vw;
   }
 }
@@ -145,5 +150,6 @@
   .mt2 {
     width: auto;
     margin-left: auto;
+    font-size: 2vw;
   }
 }

@@ -83,6 +83,11 @@
   position: absolute;
   bottom: -7vw;
 }
+@media (max-width: 1000px) {
+  .homebottom {
+    bottom: 7vw;
+  }
+}
 
 .homebottom_text {
   font-size: 15vw;
