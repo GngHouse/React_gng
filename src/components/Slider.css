@@ -210,7 +210,7 @@
 
 @media (max-width: 1000px) {
   .GNG바로가기 {
-    left: 4.7vh;
+    display: none;
     top: 70vh;
     width: 30vw;
     height: 4vh;
@@ -232,7 +232,7 @@
 
 @media (max-width: 1000px) {
   .공간연출바로가기 {
-    left: 4.7vh;
+    display: none;
     top: 70vh;
     width: 30vw;
     height: 4vh;
@@ -254,7 +254,7 @@
 
 @media (max-width: 1000px) {
   .공간대여바로가기 {
-    left: 4.7vh;
+    display: none;
     top: 70vh;
     width: 30vw;
     height: 4vh;
