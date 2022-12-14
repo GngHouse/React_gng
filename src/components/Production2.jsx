@@ -1,19 +1,22 @@
 import "./Production.css";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 export function Production2() {
   return (
     <div className="Production2">
       <div className="pro2center">
         <div className="pro1space">
-          <motion.div
-            whileHover={{ scale: 1.1 }}
-            transition={{ type: "spring", stiffness: 400, damping: 10 }}
-            className="pro1"
-          >
-            <img className="proimg" src="/img/웨딩.jpeg"></img>
-            <span className="protext">웨딩</span>
-          </motion.div>
+          <a href="#sectionSeven">
+            <motion.div
+              whileHover={{ scale: 1.1 }}
+              transition={{ type: "spring", stiffness: 400, damping: 10 }}
+              className="pro1"
+            >
+              <img className="proimg" src="/img/웨딩.jpeg"></img>
+              <span className="protext">웨딩</span>
+            </motion.div>
+          </a>
           <div className="pro1">
             <span className="pro공간">공간 연출</span>
             <span className="pro설명">

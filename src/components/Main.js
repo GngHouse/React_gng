@@ -26,7 +26,7 @@ export const Main = () => {
       "sectionFour",
       "sectionFive",
       "sectionSix",
-      "sectinoSeven",
+      "sectionSeven",
     ],
   };
 
