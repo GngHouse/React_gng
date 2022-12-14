@@ -98,10 +98,7 @@ class Slider extends Component {
                             GNG HOUSE에서 여러분들을 위한 공간을 특별한 추억으로
                             만들어드리겠습니다.
                           </span>
-                          <Link
-                            to="/Production"
-                            style={{ textDecoration: "none" }}
-                          >
+                          <a href="#sectionFive">
                             <div className="공간연출바로가기">
                               <div className="spacearound">
                                 <span className="바로가기">바로가기</span>
@@ -111,7 +108,7 @@ class Slider extends Component {
                                 ></img>
                               </div>
                             </div>
-                          </Link>
+                          </a>
                         </div>
                         <span className="공간연출">공간 대여</span>
                       </div>

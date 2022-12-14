@@ -8,6 +8,7 @@ import ReactPageScroller from "react-page-scroller";
 import { Gnghouse } from "./Gnghouse";
 import { SectionsContainer, Section } from "react-fullpage";
 import { Production } from "./Production";
+import { Production2 } from "./Production2";
 import { Gnghouse2 } from "./Gnghouse2";
 import "./Main.css";
 
@@ -17,7 +18,14 @@ export const Main = () => {
   let options = {
     scrollBar: false,
     navigation: false,
-    anchors: ["sectionOne", "sectionTwo", "sectionThree", "sectionFour"],
+    anchors: [
+      "sectionOne",
+      "sectionTwo",
+      "sectionThree",
+      "sectionFour",
+      "sectionFive",
+      "sectionSix",
+    ],
   };
 
   return (
@@ -38,6 +46,9 @@ export const Main = () => {
         </Section>
         <Section>
           <Production />
+        </Section>
+        <Section>
+          <Production2 />
         </Section>
       </SectionsContainer>
     </>

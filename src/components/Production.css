@@ -1,0 +1,203 @@
+.production {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+}
+
+.pro_bg {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+}
+
+.procenter {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+}
+
+.pro_bottom {
+  font-size: 15vw;
+  -webkit-text-stroke: 0.2vw white;
+  color: transparent;
+  opacity: 0.6;
+  letter-spacing: 1rem;
+}
+
+/* --------------------------- */
+
+.Production2 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+}
+
+.pro2center {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 10vh;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pro1space {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  top: 7vw;
+}
+
+.pro2space {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  top: 28vw;
+}
+
+@media (max-width: 1000px) {
+  .pro1space,
+  .pro2space {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1000px) {
+  .pro1space {
+    height: 50vh;
+    top: 0;
+  }
+}
+
+@media (max-width: 1000px) {
+  .pro2space {
+    height: 50vh;
+    bottom: 0;
+  }
+}
+
+.pro1 {
+  width: 28vw;
+  height: 18vw;
+  /* background-color: black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.proimg {
+  background-position: center;
+  object-fit: cover;
+  border-radius: 10px;
+  width: 100%;
+  height: 30vh;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.protext {
+  margin-top: 1vw;
+  color: #3d3d4e;
+  font-size: 1.2vw;
+  font-weight: 600;
+}
+
+.pro공간 {
+  position: absolute;
+  color: #666;
+  font-weight: 700;
+  font-size: 2vw;
+  top: 0;
+}
+
+.pro설명 {
+  color: #3d3d4e;
+  font-weight: 400;
+  font-size: 1vw;
+}
+
+@media (max-width: 1000px) {
+  .pro2center {
+    display: none;
+  }
+}
+
+/* ---------------------- */
+
+.boxmedia {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .promedia {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 1000px) {
+  .boxmedia {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 3vw;
+  }
+}
+
+@media (max-width: 1000px) {
+  .media공간연출 {
+    color: #666;
+    font-weight: 700;
+    font-size: 5vw;
+    padding-bottom: 1vw;
+  }
+}
+
+@media (max-width: 1000px) {
+  .mediatext {
+    color: #3d3d4e;
+    font-weight: 400;
+    font-size: 1vw;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .proimg {
+    width: 100%;
+    height: 15vh;
+    opacity: 0.8;
+  }
+}
+
+@media (max-width: 1000px) {
+  .proimg:hover {
+    width: 130%;
+    opacity: 1;
+    transition: opacity 0.5s;
+    transition: width 0.5s;
+  }
+}
