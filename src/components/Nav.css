@@ -1,0 +1,89 @@
+.leftnav {
+  position: fixed;
+  top: 39.5vh;
+  right: 0;
+  width: 4vw;
+  height: 21vh;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.Nav_top {
+  color: white;
+  width: 4vw;
+  height: 7vh;
+  background: rgba(250, 130, 9, 0.8);
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.Nav_middle {
+  color: white;
+  width: 4vw;
+  height: 7vh;
+  background: rgba(255, 78, 78, 0.8);
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.Nav_bottom {
+  color: white;
+  width: 4vw;
+  height: 7vh;
+  background: rgba(255, 173, 78, 0.8);
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.맨위,
+.nav공간연출,
+.맨밑 {
+  font-size: 1vw;
+}
+
+@media (max-width: 1000px) {
+  .맨위,
+  .nav공간연출,
+  .맨밑 {
+    display: none;
+  }
+}
+
+.up,
+.down,
+.middle {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .up,
+  .down,
+  .middle {
+    display: flex;
+  }
+}
+
+.up {
+  transform: rotate(-90deg);
+  width: 80%;
+}
+
+.down {
+  transform: rotate(90deg);
+  width: 80%;
+}
+
+.middle {
+  width: 25%;
+}

@@ -205,6 +205,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  left: 12.7vw;
 }
 
 @media (max-width: 1000px) {
@@ -225,6 +226,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  left: 12.7vw;
 }
 
 @media (max-width: 1000px) {
@@ -240,6 +242,7 @@
   position: absolute;
   width: 12vw;
   height: 3vw;
+  left: 12.7vw;
   background-color: #ff4e4e;
   border-radius: 5px;
   display: flex;

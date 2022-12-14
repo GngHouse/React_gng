@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Slider from "./Slider";
+import { Nav } from "./Nav";
 import Header from "./Header";
 import Firstleft from "./Firstleft";
 import { Home } from "./Home";
@@ -40,6 +41,7 @@ export const Main = () => {
 
   return (
     <>
+      <Nav />
       <Header />
       <SectionsContainer {...options}>
         <Section>
@@ -73,7 +75,7 @@ export const Main = () => {
           <Space4 />
         </Section>
         <Section>
-          <Space5/>
+          <Space5 />
         </Section>
       </SectionsContainer>
     </>
