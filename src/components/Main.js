@@ -4,15 +4,19 @@ import Slider from "./Slider";
 import Header from "./Header";
 import Firstleft from "./Firstleft";
 import { Home } from "./Home";
-import { SectionsContainer, Section } from "react-fullpage";
+import ReactPageScroller from "react-page-scroller";
 import { Gnghouse } from "./Gnghouse";
+import { SectionsContainer, Section } from "react-fullpage";
 import { Production } from "./Production";
+import { Gnghouse2 } from "./Gnghouse2";
 import "./Main.css";
 
 export const Main = () => {
   const { headingText } = styles;
 
   let options = {
+    scrollBar: false,
+    navigation: false,
     anchors: ["sectionOne", "sectionTwo", "sectionThree", "sectionFour"],
   };
 
@@ -28,6 +32,9 @@ export const Main = () => {
         </Section>
         <Section>
           <Gnghouse />
+        </Section>
+        <Section>
+          <Gnghouse2 />
         </Section>
         <Section>
           <Production />

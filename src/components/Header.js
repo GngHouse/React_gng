@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <div>
-      <Link to="/">
+      <a href="/#sectionOne">
         <img className="logo" src="/img/gnglogo.png"></img>
-      </Link>
+      </a>
     </div>
   );
 }

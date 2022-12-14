@@ -1,5 +1,6 @@
 .Navigation {
   right: 0 !important;
+  position: static !important;
 }
 
 @media (max-width: 1000px) {
