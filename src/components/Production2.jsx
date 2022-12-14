@@ -29,40 +29,48 @@ export function Production2() {
               드립니다.
             </span>
           </div>
-          <motion.div
-            whileHover={{ scale: 1.1 }}
-            transition={{ type: "spring", stiffness: 400, damping: 10 }}
-            className="pro1"
-          >
-            <img className="proimg" src="/img/공간연출2.jpeg"></img>
-            <span className="protext">공간연출2</span>
-          </motion.div>
+          <a href="#sectionEight">
+            <motion.div
+              whileHover={{ scale: 1.1 }}
+              transition={{ type: "spring", stiffness: 400, damping: 10 }}
+              className="pro1"
+            >
+              <img className="proimg" src="/img/공간연출2.jpeg"></img>
+              <span className="protext">공간연출2</span>
+            </motion.div>
+          </a>
         </div>
         <div className="pro2space">
-          <motion.div
-            whileHover={{ scale: 1.1 }}
-            transition={{ type: "spring", stiffness: 400, damping: 10 }}
-            className="pro1"
-          >
-            <img className="proimg" src="/img/공간연출3.jpeg"></img>
-            <span className="protext">공간연출3</span>
-          </motion.div>
-          <motion.div
-            whileHover={{ scale: 1.1 }}
-            transition={{ type: "spring", stiffness: 400, damping: 10 }}
-            className="pro1"
-          >
-            <img className="proimg" src="/img/공간연출4.jpeg"></img>
-            <span className="protext">공간연출4</span>
-          </motion.div>
-          <motion.div
-            whileHover={{ scale: 1.1 }}
-            transition={{ type: "spring", stiffness: 400, damping: 10 }}
-            className="pro1"
-          >
-            <img className="proimg" src="/img/공간연출5.jpeg"></img>
-            <span className="protext">공간연출5</span>
-          </motion.div>
+          <a href="#sectionNine">
+            <motion.div
+              whileHover={{ scale: 1.1 }}
+              transition={{ type: "spring", stiffness: 400, damping: 10 }}
+              className="pro1"
+            >
+              <img className="proimg" src="/img/공간연출3.jpeg"></img>
+              <span className="protext">공간연출3</span>
+            </motion.div>
+          </a>
+          <a href="#sectionTen">
+            <motion.div
+              whileHover={{ scale: 1.1 }}
+              transition={{ type: "spring", stiffness: 400, damping: 10 }}
+              className="pro1"
+            >
+              <img className="proimg" src="/img/공간연출4.jpeg"></img>
+              <span className="protext">공간연출4</span>
+            </motion.div>
+          </a>
+          <a href="#sectionEleven">
+            <motion.div
+              whileHover={{ scale: 1.1 }}
+              transition={{ type: "spring", stiffness: 400, damping: 10 }}
+              className="pro1"
+            >
+              <img className="proimg" src="/img/공간연출5.jpeg"></img>
+              <span className="protext">공간연출5</span>
+            </motion.div>
+          </a>
         </div>
       </div>
       <div className="promedia">

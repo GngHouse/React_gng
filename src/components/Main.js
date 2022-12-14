@@ -12,6 +12,10 @@ import { Production2 } from "./Production2";
 import { Gnghouse2 } from "./Gnghouse2";
 import "./Main.css";
 import { Weading } from "./Weading";
+import { Space2 } from "./Space2";
+import { Space3 } from "./Space3";
+import { Space4 } from "./Space4";
+import { Space5 } from "./Space5";
 
 export const Main = () => {
   const { headingText } = styles;
@@ -27,6 +31,10 @@ export const Main = () => {
       "sectionFive",
       "sectionSix",
       "sectionSeven",
+      "sectionEight",
+      "sectionNine",
+      "sectionTen",
+      "sectionEleven",
     ],
   };
 
@@ -54,6 +62,18 @@ export const Main = () => {
         </Section>
         <Section>
           <Weading />
+        </Section>
+        <Section>
+          <Space2 />
+        </Section>
+        <Section>
+          <Space3 />
+        </Section>
+        <Section>
+          <Space4 />
+        </Section>
+        <Section>
+          <Space5/>
         </Section>
       </SectionsContainer>
     </>
