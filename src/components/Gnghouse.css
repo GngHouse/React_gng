@@ -26,6 +26,7 @@
 
 .gng_bottom {
   font-size: 15vw;
+  font-family: "Inter";
   -webkit-text-stroke: 0.2vw #fff;
   color: transparent;
   opacity: 0.6;
@@ -98,6 +99,7 @@
   color: #666;
   font-weight: 700;
   font-size: 3vw;
+  font-family: "Inter";
   padding-bottom: 1vw;
 }
 
@@ -110,6 +112,7 @@
 .mt {
   width: 40vw;
   font-size: 1vw;
+  font-family: "Inter";
   font-weight: 400;
   color: #3d3d4e;
 }
@@ -142,6 +145,7 @@
   text-align: right;
   width: 40vw;
   font-size: 1vw;
+  font-family: "Inter";
   font-weight: 400;
   color: #3d3d4e;
 }

@@ -146,6 +146,7 @@
     position: absolute;
     top: 38vw;
     font-size: 7vw;
+    font-family: "Inter";
     font-weight: 500;
   }
 }
@@ -263,6 +264,7 @@
 
 .바로가기 {
   font-size: 1.2vw;
+  font-family: "Inter";
   color: white;
 }
 

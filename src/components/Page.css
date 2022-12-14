@@ -67,6 +67,7 @@
   color: #666;
   font-weight: 700;
   font-size: 3vw;
+  font-family: "Inter";
 }
 @media (max-width: 1000px) {
   .pagemaintitle {
@@ -81,6 +82,7 @@
   color: #666;
   font-weight: 700;
   font-size: 1.2vw;
+  font-family: "Inter";
 }
 
 @media (max-width: 1000px) {

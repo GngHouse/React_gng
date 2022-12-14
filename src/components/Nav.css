@@ -50,6 +50,7 @@
 .nav공간연출,
 .맨밑 {
   font-size: 1vw;
+  font-family: "Inter";
 }
 
 @media (max-width: 1000px) {

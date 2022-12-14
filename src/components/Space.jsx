@@ -1,10 +1,11 @@
 import Header from "./Header";
+import "./Space.css";
 
 export function Space() {
   return (
-    <div>
+    <div className="S_center">
       <Header />
-      <h1>공간대여</h1>
+      <img src="/img/404.gif"></img>
     </div>
   );
 }

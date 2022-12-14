@@ -143,7 +143,7 @@ class Slider extends Component {
                             소규모 모임도 원하는 공간을 대여할 수 있도록, 지역의
                             잉여 공간을 대여해드립니다.
                           </span>
-                          <Link to="/Space" style={{ textDecoration: "none" }}>
+                          <a href="/Space">
                             <div className="공간대여바로가기">
                               <div className="spacearound">
                                 <span className="바로가기">바로가기</span>
@@ -153,7 +153,7 @@ class Slider extends Component {
                                 ></img>
                               </div>
                             </div>
-                          </Link>
+                          </a>
                         </div>
                         <span className="공간연출">GNG HOUSE</span>
                       </div>
