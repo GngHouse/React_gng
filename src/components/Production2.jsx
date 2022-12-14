@@ -86,21 +86,31 @@ export function Production2() {
             드립니다.
           </span> */}
         </div>
-        <div className="boxmedia">
-          <img className="proimg" src="/img/웨딩.jpeg"></img>
-        </div>
-        <div className="boxmedia">
-          <img className="proimg" src="/img/공간연출2.jpeg"></img>
-        </div>
-        <div className="boxmedia">
-          <img className="proimg" src="/img/공간연출3.jpeg"></img>
-        </div>
-        <div className="boxmedia">
-          <img className="proimg" src="/img/공간연출4.jpeg"></img>
-        </div>
-        <div className="boxmedia">
-          <img className="proimg" src="/img/공간연출5.jpeg"></img>
-        </div>
+        <a href="#sectionSeven">
+          <div className="boxmedia">
+            <img className="proimg" src="/img/웨딩.jpeg"></img>
+          </div>
+        </a>
+        <a href="#sectionEight">
+          <div className="boxmedia">
+            <img className="proimg" src="/img/공간연출2.jpeg"></img>
+          </div>
+        </a>
+        <a href="#sectionNine">
+          <div className="boxmedia">
+            <img className="proimg" src="/img/공간연출3.jpeg"></img>
+          </div>
+        </a>
+        <a href="#sectionTen">
+          <div className="boxmedia">
+            <img className="proimg" src="/img/공간연출4.jpeg"></img>
+          </div>
+        </a>
+        <a href="#sectionEleven">
+          <div className="boxmedia">
+            <img className="proimg" src="/img/공간연출5.jpeg"></img>
+          </div>
+        </a>
       </div>
     </div>
   );
