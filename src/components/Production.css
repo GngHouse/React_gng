@@ -1,4 +1,4 @@
-a{
+a {
   display: flex;
   justify-content: center;
 }
@@ -36,6 +36,7 @@ a{
   color: transparent;
   opacity: 0.6;
   letter-spacing: 1rem;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
 }
 
 /* --------------------------- */
