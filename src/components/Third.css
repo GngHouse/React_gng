@@ -1,0 +1,12 @@
+.Third_flex {
+  display: flex;
+  justify-content: center;
+}
+
+.Third_hand {
+  position: absolute;
+  width: 30% !important;
+  right: 8vw;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+}

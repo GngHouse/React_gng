@@ -5,6 +5,8 @@ import "./Slider.css";
 import First from "./First";
 import Firstleft from "./Firstleft";
 import { Link } from "react-router-dom";
+import Second from "./Second";
+import Third from "./Third";
 
 class Slider extends Component {
   componentDidMount() {
@@ -27,8 +29,6 @@ class Slider extends Component {
           }}
           className="slider"
         >
-          {/* If you want fullscreen slider then add fullscreen to
-      this div */}
           <ul className="slides">
             <li>
               <img src="/img/background0.png" />
@@ -68,7 +68,7 @@ class Slider extends Component {
                       </div>
                     </div>
                     <div className="firstright">
-                      <First />
+                      <Third />
                     </div>
                   </div>
                 </div>
@@ -159,7 +159,7 @@ class Slider extends Component {
                       </div>
                     </div>
                     <div className="firstright">
-                      <First />
+                      <Second />
                     </div>
                   </div>
                 </div>
