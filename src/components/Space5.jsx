@@ -13,7 +13,8 @@ export function Space5() {
             <span className="pagesubtitle">
               호텔 플라워 스타일링 화이트와 그린으로 웅장한 느낌의 메인 행잉
               장식으로 나이트 웨딩에도 적합한 PLACE 신부가 첫발을 디디는 입구에
-              화려함을 더하면서 격식있는 세련된 스타일로 디자인
+              화려함을 더하면서 격식있는 세련된 스타일로 <br />
+              디자인
             </span>
           </div>
         </div>

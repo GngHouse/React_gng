@@ -10,6 +10,7 @@ export function Space2() {
             <span className="pagesubtitle">
               야외 연회 스타일링 식사 연회가 가능한 풀 셋팅으로 자연과
               어울러지는 디자인 센터 피스부터 전체적인 디렉팅을 가미한
+              <br />
               데코레이션
             </span>
           </div>
