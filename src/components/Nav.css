@@ -64,7 +64,7 @@
 .up,
 .down,
 .middle {
-  display: none;
+  display: flex;
 }
 
 @media (max-width: 1000px) {
@@ -77,12 +77,12 @@
 
 .up {
   transform: rotate(-90deg);
-  width: 80%;
+  width: 2vw;
 }
 
 .down {
   transform: rotate(90deg);
-  width: 80%;
+  width: 2vw;
 }
 
 .middle {
